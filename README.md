@@ -2,8 +2,13 @@
 
 ## How to Run it
 
-* Install files from github and run mongoimport -h localhost:27017 -d ieeevisTweets -c tweet --file ieeevis2020Tweets.dump
-* run mongosh "mongodb://localhost:27017/ieeevisTweets" < queries/filename.js in terminal, replacing filename with the query file you would like to run 
+* Install files from github and run ```console
+mongoimport -h localhost:27017 -d ieeevisTweets -c tweet --file ieeevis2020Tweets.dump
+```
+* run ```console
+mongosh "mongodb://localhost:27017/ieeevisTweets" < queries/filename.js
+```
+for each query in terminal, replacing filename with the query file you would like to run 
 
 ## Queries
 
